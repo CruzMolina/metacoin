@@ -21,6 +21,7 @@
   "homepage": "https://github.com/eshaben/metacoin#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "truffle": "^5.1.13",
     "truffle-hdwallet-provider": "^1.0.17"
   }
 }
