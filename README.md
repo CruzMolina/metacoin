@@ -8,7 +8,6 @@ test
 test
 test
 test
-lol
 test
 tettestestst
 test
