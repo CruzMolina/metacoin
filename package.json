@@ -1,0 +1,27 @@
+{
+  "name": "metacoin",
+  "version": "1.0.0",
+  "description": "test test winner, winner, chicken dinner!! test test",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eshaben/metacoin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eshaben/metacoin/issues"
+  },
+  "homepage": "https://github.com/eshaben/metacoin#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "truffle": "^5.1.13",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
