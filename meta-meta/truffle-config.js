@@ -10,16 +10,16 @@ module.exports = (() => {
     // for more details on how to specify configuration options!
     /**/
     networks: {
-      //    development: {
-      //      host: "127.0.0.1",
-      //      port: 7545,
-      //      network_id: "*"
-      //    },
-      test: {
+          development: {
+            host: "127.0.0.1",
+            port: 7545,
+            network_id: "*"
+          },
+/*      test: {
         host: "127.0.0.1",
         port: 7545,
         network_id: "*",
-      },
+      },*/
       ropsten: {
         provider: function () {
           return new HDWalletProvider(process.env.MNEMONIC, "https://ropsten.infura.io/v3/" + process.env.API_KEY)
