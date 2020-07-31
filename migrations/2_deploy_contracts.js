@@ -1,8 +1,12 @@
 const ConvertLib = artifacts.require("ConvertLib");
 const MetaCoin = artifacts.require("MetaCoin");
 
-module.exports = function(deployer) {
-  deployer.deploy(ConvertLib);
-  deployer.link(ConvertLib, MetaCoin);
-  deployer.deploy(MetaCoin);
+module.exports = async function(deployer, accounts) {
+  await deployer.deploy(ConvertLib);
+  await deployer.link(ConvertLib, MetaCoin);
+  await deployer.deploy(MetaCoin);
+  
+  await metaCoinInstance = await MetaCoin.deployed();
+  // test
+  await metaCoinInstance.sendCoin(accounts[0], 100);
 };
